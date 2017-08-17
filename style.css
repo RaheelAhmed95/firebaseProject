@@ -1,17 +1,30 @@
 #convoDiv{
     border: 3px solid gainsboro;
     height: 460px;
-    width: 23%;
+    width: 22%;
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 18px;
     background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.nodeDiv{
+    background-color: lightblue;
+    margin-left: 5px;
 }
 
 #operationsDiv{
     border: 3px solid gainsboro;
-    height: 77px;
-    width: 23%;
+    height: 132px;
+    width: 22%;
     margin: 0 auto;
     margin-top: 10px;
     border-radius: 18px;
@@ -26,17 +39,22 @@
 }
 
 #submitBtn{
-    margin-top: 3px;
-    float: right;
-    margin-right: 8px;
-    height: 28px;
-    width: 85px;
+    margin-top: 9px;
+    /*float: right; */
+    text-align: center;
+    margin-left: 108px;
+    height: 72px;
+    width: 74px;
     background-color: gainsboro;
-    border-radius: 8px;
+    border-radius: 150px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+    border: 2px solid silver;
+
+
 }
 
 body{
     background-color: gray;
+    color: black;
 }

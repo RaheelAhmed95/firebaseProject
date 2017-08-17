@@ -8,6 +8,22 @@
 
     <link rel="stylesheet" href="style.css">
 
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAOvBJy5Hdp-uWk7yvf2BTP7X2sZge-SB0",
+    authDomain: "fir-project-ee3bf.firebaseapp.com",
+    databaseURL: "https://fir-project-ee3bf.firebaseio.com",
+    projectId: "fir-project-ee3bf",
+    storageBucket: "",
+    messagingSenderId: "1051895382624"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+
 </head>
 
 
@@ -15,13 +31,15 @@
     
 <div id="convoDiv">
 
+<h2> Chat App </h2>
+
 </div>
 
     <div id="operationsDiv">   
  
          <input type="text" id="textBox">
          <br /> 
-         <button id="submitBtn" value="submit"> <b> Submit </b> </button>
+         <button id="submitBtn" value="submit" onclick="chatBot()"> <b> Submit </b> </button>
 
 
 
@@ -31,6 +49,6 @@
 
 </body>
 
-
+<script src="app.js"></script> 
 
 </html>
